@@ -1,0 +1,66 @@
+/* Estilo Geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo do Cabeçalho */
+
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .button-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-size: 600;
+    background-color: blue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .button-contato button:hover{
+    box-shadow: 0px 0px 8px #565ba3;
+}
