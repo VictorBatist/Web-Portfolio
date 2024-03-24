@@ -29,3 +29,38 @@ header > .interface {
     align-items: center;
     justify-content: space-between ;
 }
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .button-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-size: 600;
+    background-color: blue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .button-contato button:hover{
+    box-shadow: 0px 0px 8px #565ba3;
+}
