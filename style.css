@@ -7,8 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root{
+    --color-1:black;
+    --color-2: #0026f6;
+    --color-3: white;
+}
+
 body{
-    background-color: black;
+    background-color: var(--color-1);
     height: 100vh;
 }
 
@@ -26,7 +32,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-size: 600;
-    background-color: #003399;
+    background-color:var(--color-2);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -39,13 +45,13 @@ body{
 }
 
 h2.titulo{
-    color: white;
+    color: var(--color-3);
     font-size: 36px;
     text-align: center;
 }
 
 h2.titulo span{
-    color: #003399;
+    color: var(--color-2);
 }
 
 /* Estilo do Cabeçalho */
@@ -69,7 +75,7 @@ header a{
 }
 
 header a:hover{
-    color: white;
+    color: var(--color-3);
     transform: scale(1.05);
 }
 
@@ -95,17 +101,17 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .texto-topo-site h1{
-    color: white;
+    color: var(--color-3);
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-do-site .texto-topo-site h1 span{
-    color: #003399;
+    color: var(--color-2);
 }
 
 .topo-do-site .texto-topo-site p {
-    color: white;
+    color: var(--color-3);
     margin: 40px 0;
 }
 
@@ -134,7 +140,7 @@ section .especialidades .flex{
 }
 
 .especialidades .especialidades-box{
-    color:white;
+    color: var(--color-3);
     padding: 40px ;
     border-radius: 20px;
     margin: 35px;
@@ -148,7 +154,7 @@ section .especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 60px;
-    color: #003399;
+    color: var(--color-2);
 }
 
 .especialidades .especialidades-box h3{
