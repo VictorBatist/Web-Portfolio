@@ -161,3 +161,9 @@ section .especialidades .flex{
     font-size: 24px;
     margin: 11px 0;
 }
+
+/* Estilo do Sobre Mim */
+
+section .sobre-mim{
+    padding: 40px 4%;
+}
