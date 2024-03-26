@@ -39,7 +39,7 @@ body{
     transition: .2s;
 }
 
-.button-contato button:hover{
+button:hover{
     box-shadow: 0px 0px 8px #565ba3;
     transform: scale(1.05) ;
 }
@@ -165,7 +165,7 @@ section .especialidades .flex{
 /* Estilo do Sobre Mim */
 
 section.sobre-mim{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.sobre-mim .flex{
@@ -193,5 +193,17 @@ section.sobre-mim .flex{
 .sobre-mim .text-sobre{
     margin: 20px;
     text-align: justify;
+}
+
+.sobre-mim .text-sobre .botao-redes-socias button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-2);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 4px 5px;
+    transition: 1s;
 }
 
