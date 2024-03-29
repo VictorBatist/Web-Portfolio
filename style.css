@@ -22,7 +22,6 @@ body{
     display: flex;
 }
 
-
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -53,6 +52,19 @@ h2.titulo{
 
 h2.titulo span{
     color: var(--color-2);
+}
+
+.botao-redes-socias button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-2);
+    color: var(--color-3);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 4px 5px;
+    transition: 1s;
 }
 
 /* Estilo do Cabeçalho */
@@ -196,18 +208,6 @@ section.sobre-mim .flex{
     text-align: justify;
 }
 
-.sobre-mim .text-sobre .botao-redes-socias button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--color-2);
-    color: var(--color-3);
-    font-size: 22px;
-    cursor: pointer;
-    margin: 4px 5px;
-    transition: 1s;
-}
 
 /* Estilizando Portfolio */
 
@@ -310,3 +310,34 @@ form .botao-enviar input{
     transition: 2s;
 }
 
+/* Estilo do footer */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgb(46, 46, 46);
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid var(--color-2);
+}
+
+footer .line-footer p{
+    color: var(--color-3);
+}
+
+footer .line-footer p i{
+    color: var(--color-2);
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: var(--color-3);
+}
