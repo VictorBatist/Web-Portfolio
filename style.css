@@ -33,13 +33,14 @@ body{
     font-size: 18px;
     font-size: 600;
     background-color:var(--color-2);
+    color: var(--color-3);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
 }
 
-button:hover{
+button:hover, form .botao-enviar input:hover{
     box-shadow: 0px 0px 8px #565ba3;
     transform: scale(1.05) ;
 }
@@ -201,6 +202,7 @@ section.sobre-mim .flex{
     border-radius: 50%;
     border: none;
     background-color: var(--color-2);
+    color: var(--color-3);
     font-size: 22px;
     cursor: pointer;
     margin: 4px 5px;
@@ -256,3 +258,55 @@ section.portfolio .flex{
 .overlay:hover{
     opacity: 1;
 }
+
+/* Estilizando Formulario */
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0 ;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--color-3);
+    font-size: 18px;
+}
+
+/* Se quiser estilizar o PLACEHOLDER */
+/* form input::placeholder{ */
+/* color: var(--color-2); */
+/* } */
+
+form textarea{
+    resize:none;
+    max-height: 200px;
+}
+
+form .botao-enviar{
+    margin-top: 30px;
+    text-align: center;
+}
+
+form .botao-enviar input{
+    width: 120px;
+    background-color: var(--color-2);
+    color: var(--color-3);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 2s;
+}
+
