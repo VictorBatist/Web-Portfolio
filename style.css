@@ -337,7 +337,3 @@ footer .line-footer p i{
     color: var(--color-2);
     font-size: 22px;
 }
-
-footer .line-footer p a{
-    color: var(--color-3);
-}
