@@ -113,7 +113,7 @@ section.topo-do-site .flex{
     gap: 90px;
 }
 
-.topo-do-site .texto-topo-site h1{
+.texto-topo-site h1{
     color: var(--color-3);
     font-size: 42px;
     line-height: 40px;
@@ -186,6 +186,10 @@ section.sobre-mim .flex{
     gap: 60px;
 }
 
+.img-sobre img{
+    border-radius: 40px;
+}
+
 .sobre-mim .text-sobre{
     color: var(--color-3);
 
@@ -206,6 +210,10 @@ section.sobre-mim .flex{
 .sobre-mim .text-sobre{
     margin: 20px;
     text-align: justify;
+}
+
+.sobre-mim .text-sobre .botao-redes-socias{
+    margin-top: 20px;
 }
 
 
@@ -336,4 +344,101 @@ footer .line-footer p{
 footer .line-footer p i{
     color: var(--color-2);
     font-size: 22px;
+}
+
+@media screen and (max-width: 1200px){
+    /* Classe Geral */
+    .flex{
+        flex-direction: column;
+    }
+    
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+    
+    /* Cabeçalho */
+    .menu, .button-contato{
+        display: none;
+    }
+
+    /* Topo do Site */
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    .texto-topo-site h1{
+        font-size: 35px;
+    }
+
+    .topo-do-site .image-topo-site img{
+        width: 100%;
+    }
+    
+    /* Espicialidades */
+
+    section .especialidades{
+        padding: 40px 8%;
+    }
+
+    h2.titulo{
+        font-size: 35px;
+        line-height:30px;
+        text-align: center;
+    }
+
+    /* Sobre Mim */
+
+    section.sobre-mim{
+        padding: 80px 8%;
+    }
+
+    section.sobre-mim .flex{
+        flex-direction: column-reverse;
+    }
+
+    .sobre-mim .text-sobre h2{
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .botao-redes-socias{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+    }
+
+    /* Sessão de Protifolio */
+    section.portfolio{
+        padding: 80px 8%;
+    }
+
+    section.portfolio .flex{
+       gap: 60px;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+
+    }
+
+    /* Footer */
+
+    footer .flex{
+        gap: 30px ;
+    }
+
+    footer .line-footer{
+        text-align: center;
+    }
+    
 }
