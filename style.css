@@ -96,9 +96,54 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav li{
+header nav.menu li{
     display: inline-block;
     padding: 0 40px;
+}
+
+/*Estilo do menu mobile */
+
+.botao-abrir i{
+    color: var(--color-2);
+    font-size: 40px;
+}
+
+.menu-mobile{
+    background-color: var(--color-1);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+}
+
+.menu-mobile .botao-fechar{
+    padding: 20px 5%;
+}
+
+.menu-mobile .botao-fechar i{
+    color: var(--color-2);
+    font-size: 30px;
+}
+
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color:var(--color-3);
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: var(--color-2);
+    color: var(--color-1);
 }
 
 /* Estilo do topo do site */
@@ -357,6 +402,9 @@ footer .line-footer p i{
     }
     
     /* Cabeçalho */
+    header .logo a img{
+        width: 200px;
+    }
     .menu, .button-contato{
         display: none;
     }
