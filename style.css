@@ -117,6 +117,15 @@ header nav.menu li{
     z-index: 99999;
     width: 0%;
     overflow: hidden;
+    transition: .5s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
 }
 
 .menu-mobile .botao-fechar{
